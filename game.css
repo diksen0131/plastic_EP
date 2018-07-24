@@ -1,0 +1,33 @@
+
+ .bkgd{
+
+	background-image:url(photo1.jpg);
+
+	background-size: cover;
+}
+
+
+.carousel {
+
+height:500px; width: 1000px; margin:0px auto;
+
+}
+
+
+
+#triangle-bottomleft {
+     width: 0;
+     height: 0;
+     border-bottom: 100px solid red;
+     border-right: 100px solid transparent;  
+}
+
+
+.team{
+
+	background-image:url(office.jpg) ;
+
+	
+	background-size: cover;
+}
+
