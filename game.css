@@ -1,5 +1,7 @@
 
  .bkgd{
+    
+
 
 	background-image:url(photo1.jpg);
 
@@ -9,18 +11,12 @@
 
 .carousel {
 
-height:500px; width: 1000px; margin:0px auto;
+height:100px; width: 500px; border-style: solid;
 
 }
 
 
 
-#triangle-bottomleft {
-     width: 0;
-     height: 0;
-     border-bottom: 100px solid red;
-     border-right: 100px solid transparent;  
-}
 
 
 .team{
