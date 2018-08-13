@@ -1,17 +1,19 @@
 
- .bkgd{
-    
+ 
 
+ .bkgd{
 
 	background-image:url(photo1.jpg);
 
 	background-size: cover;
+
+
 }
 
 
-.carousel {
+.carousel2 {
 
-height:100px; width: 500px; border-style: solid;
+height:550px; width: 1000px;   margin:0 auto; 
 
 }
 
@@ -21,9 +23,46 @@ height:100px; width: 500px; border-style: solid;
 
 .team{
 
-	background-image:url(office.jpg) ;
-
-	
+	background-image:url(office.jpg) ;	
 	background-size: cover;
+	background-attachment:fixed;
 }
+
+.plastic{
+
+	height: 300px; width: 100%; padding-top: 30px; 
+}
+
+.divcarou{
+	background-image:url(photo1.jpg);background-size: cover;
+    height:800px; width: 100%;opacity:0.75; text-align:center;
+    background-attachment:fixed;
+    padding-top: 240px;
+}
+
+
+.button{
+
+	width: 1350px; height: 500px;  padding-top: 190px;
+	vertical-align : middle;
+	background-size:1350px 500px;
+	 margin:0 auto; 
+}
+
+.radius1{
+
+	margin-left: 0px; opacity:0.6; width: 300px;height: 100px;border-radius: 0px 70px 70px 0px;
+}
+
+
+#motive{
+	margin-left: 0px;  width: 100px;height: 100px;border-radius: 0px 120px 120px 0px; padding-top: 25px; padding-left: 80px;   transition:width 1s; 
+	/*-moz-transition:width 1s;
+    -webkit-transition:width 1s;
+    -o-transition:width 1s;"*/
+
+}
+
+#motive:hover{ width:100%; height: 300px; }
+
 
