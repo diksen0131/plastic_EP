@@ -3,10 +3,11 @@
 
  .bkgd{
 
-	background-image:url(photo1.jpg);
-
-	background-size: cover;
-
+	background-image:url(image/photo1.jpg);background-size: cover;
+    
+    height:800px; width: 100%;text-align:center;
+    
+    background-attachment:fixed;
 
 }
 
@@ -23,9 +24,10 @@ height:550px; width: 1000px;   margin:0 auto;
 
 .team{
 
-	background-image:url(photo1.jpg) ;	
+	background-image:url(image/nutc.jpg) ;	
 	background-size: cover;
 	background-attachment:fixed;
+
 }
 
 .plastic{
@@ -34,11 +36,7 @@ height:550px; width: 1000px;   margin:0 auto;
 }
 
 .divcarou{
-	background-image:url(photo1.jpg);background-size: cover;
-    
-    height:800px; width: 100%;text-align:center;
-    
-    background-attachment:fixed;
+	
     
     padding-top: 240px;
 }
@@ -71,3 +69,8 @@ height:550px; width: 1000px;   margin:0 auto;
 
 .kind{ background-color: #E0E0E0; }
 
+
+.list {
+
+	 list-style-type:decimal;
+}

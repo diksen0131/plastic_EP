@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>環境保護</title>
-<link rel="icon" type="image/gif" href="gif1.gif" >
+<link rel="icon" type="image/gif" href="image/gif1.gif" >
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,74 +19,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
 
-<script>
-function motive() {
-    
-    
-    document.getElementById("motive").innerHTML = "<h1>點擊前往</h1>";
-}
 
-function nmotive() {
-    
-    document.getElementById("motive").innerHTML = "<h1>研究動機</h1>";
-}
-
-function div2() {
-    document.getElementById("2").style.opacity="1";
-    document.getElementById("2").innerHTML = "<h1>two</h1>";
-}
-
-function nodiv2() {
-    document.getElementById("2").style.opacity="0.6";
-    document.getElementById("2").innerHTML = "<h1>one</h1>";
-}
-
-function div3() {
-    document.getElementById("3").style.opacity="1";
-    document.getElementById("3").innerHTML = "<h1>two</h1>";
-}
-
-function nodiv3() {
-    document.getElementById("3").style.opacity="0.6";
-    document.getElementById("3").innerHTML = "<h1>one</h1>";
-}
-
-
-function divcarou() {
-   document.getElementById("divcarousel").style.opacity="1";
-}
-
-function ndivcarou() {
-   document.getElementById("divcarousel").style.opacity="0.75";
-}
-
-function land (){
-  document.getElementById("change").style.backgroundImage = "url('land.jpg')";
-}
-
-function nland (){
-  document.getElementById("change").style.backgroundImage = "url('')";
-}
-
-function sea (){
-  document.getElementById("change").style.backgroundImage = "url('sea.jpg')";
-}
-
-function nsea (){
-  document.getElementById("change").style.backgroundImage = "url('')";
-}
-
-
-function animal (){
-  document.getElementById("change").style.backgroundImage = "url('animal.jpg')";
-}
-
-function nanimal (){
-  document.getElementById("change").style.backgroundImage = "url('')";
-}
-
-
-</script>
 
 
 
@@ -94,11 +27,11 @@ function nanimal (){
 </head>
 
 
-<body>
+<body class="bkgd">
 
     <nav class=" navbar sticky-top  navbar-expand-lg navbar-dark bg-success  "  >
       
-       <a class="navbar-brand" href="index.html"><img src="gif1.gif" height="30" width="30" title="回首頁"></a>
+       <a class="navbar-brand" href="index.html"><img src="image/gif1.gif" height="30" width="30" title="回首頁"></a>
        
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
            <span class="navbar-toggler-icon"></span>
@@ -111,13 +44,13 @@ function nanimal (){
                     
                                     
                     <li class="nav-item ">
-                    <a class="nav-link" href="#">研究動機</a>
+                    <a class="nav-link" href="motive.html">研究動機</a>
                     </li>  
 
                     <li class="nav-item">
                     <a class="nav-link" href="kind.html">汙染種類</a>
                     </li>
-
+                             
 
                     <li class="nav-item">
                     <a class="nav-link" href="team.html">製作團隊</a>
@@ -133,38 +66,29 @@ function nanimal (){
 
 
 
-<!-- <div style="background-color: white width:100%; height:70px;">
- 
-    <table style="height: 50px; " align="center" >  
-        <tr>
-        <th><h3>plastic</h3></th>
-        <th><img src="trash.png"  height="50px" width="50px"   style="height: auto; max-width: 100%;" ></th>
-        </tr>
-    </table>
-  
-</div> -->
 
-
-<!-- <div style="height: 30px;"></div> -->
 <div  id="divcarousel" class="divcarou"   >
     
     <p style="font-family:Microsoft JhengHei; font-size: 70px; color: white;">塑膠汙染</p>
     <div align="center"><hr width="90%" color="white"/></div>
     <p style="font-family:Microsoft JhengHei; font-size: 25px; color: white;" class="text-justify">塑膠污染是指環境中塑膠製品的累積，造成對野生動物及棲息地破壞，甚至對人類的負面影響。塑膠污染有很多不同的種類和形式，影響陸地、水域及海洋。一些地區已經開始進行塑膠減量，其作法是試圖減少塑膠的消費量及提倡塑膠回收。塑膠污染的重點和便宜及耐用的塑膠有關，也使得人們傾向使用高水準的塑膠。</p>
+
+
+   
 </div>
 
+   
+
+    
 
 
 
+     <div class="w3-container">
+      <p  style="color:white;">Code licensed MIT, docs CC BY 3.0.</p>
+     </div>
 
 
-  
 
-    <!-- <div class="w3-container bg-success ">
-      
-      <p>國立臺中科技大學</p>
-
-     </div> -->
 
 
 </body>
